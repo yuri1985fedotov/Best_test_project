@@ -22,4 +22,4 @@ def test_guest_can_go_be_login_page(browser):
     link = "https://selenium1py.pythonanywhere.com/ru/accounts/login/"
     page = LoginPage(browser, link)
     page.open()
-    page.should_be_login_page()
+    page.should_be_login_page()    
